@@ -1,0 +1,325 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #f7f7f7;
+  font-family: Arial;
+  margin: 0px;
+}
+
+.header {
+  display: inline-block;
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  height: 50px;
+  margin: 0px;
+}
+
+.left {
+  display: inline-block;
+  float: left;
+  padding-left: 3%;
+  padding-top: 10px;
+  width: 72%;
+}
+
+.right {
+  display: inline-block;
+  float: right;
+  width: 28%;
+  height: 50px;
+  background-color: #000;
+}
+
+.search1 {
+  display: inline-block;
+  float: left;
+  width: 25%;
+}
+
+.search1 img {
+  display: inline-block;
+  margin-top: 15px;
+  margin-right: 4%;
+  float: left;
+}
+
+.search1,a:link,a:visited{
+  text-decoration:none;
+  color: #fff;
+}
+
+input[name=button] {
+  background-color: #fff;
+  border-radius: 8%;
+  border-style: none;
+  color: #000;
+  width: 50%;
+  text-align:center;
+  height: 30px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.topnav {
+  position: static;
+  width: 100%;
+  overflow: hidden;
+  background-color: #333;
+  height: 45px;
+  margin-top: -4px;
+  position:fixed; 
+  top:0px;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #DCDCDC;
+  text-align: center;
+  line-height: 45px;
+  width: 13%;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  color: #fff;
+}
+
+.content {
+  width: 100%;
+  background-color: #fff
+}
+
+.square {
+  width: 100%;
+}
+
+.square2 {
+  padding: 2%;
+  width: 100%;
+  height: 150px;
+  margin-top: 10px;
+}
+
+.leftpanel {
+  width: 65%;
+  float: left;
+  padding-left: 2%;
+  background-color: #fff;
+  padding-top: 0.5%;
+}
+
+.leftpanel h1 {
+  margin-top: 0px;
+  font-size: 36px;
+  padding-top: 16px;
+  color: #232323;
+}
+
+.leftpanel h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #232323;
+}
+
+.rightpanel {
+  width: 35%;
+  float: left;
+}
+
+.rightpaneltop {
+  width: 100%;
+  padding-top: 20px;
+  padding-left: 2%;
+}
+
+.rightpaneltop h4 {
+  padding-left: 2%;
+  font-size: 12px;
+  color: #414141;
+  margin-top: 85px;
+}
+
+.rightpaneltop h2 {
+  padding-left: 2%;
+  font-size: 22px;
+  color: #606060;
+  margin-top: -15px;
+}
+
+.square1 {
+  width: 100%;
+  float: left;
+}
+
+.square5 {
+  width: 100%;
+  float: left;
+  margin-top: 30px;
+}
+
+.leftpanel-1 {
+  display: inline-block;
+  width: 50%;
+  float: left;
+}
+
+.leftpanel-1 iframe{
+  padding-right: 5%;
+}
+
+.leftpanel-2 {
+  display: inline-block;
+  margin-top: -1.6%;
+  width: 42%;
+  margin-right: 70px;
+  float: right;
+}
+
+.leftpanel-2 p {
+  color: #9d9d9d;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.leftpanel-2 a {
+  color: #232323;
+}
+
+.leftpanel-2 h3 {
+  margin-top: -8px;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.word1 {
+  width: 100%;
+  float: left;
+  padding-left: 0.6%;
+  margin-top: -10px; 
+  font-size: 12px;
+  color: #888;
+  vertical-align: middle;
+}
+
+.word1 img {
+  vertical-align: middle;
+}
+
+.word1 a {
+  color: #7e7e7e;
+}
+
+.rightpanel-1 {
+  width: 45%;
+  float: left;
+  padding-left:2%;
+  vertical-align: middle;
+}
+
+.rightpanel-1 iframe{
+  width: 100%;
+}
+
+.rightpanel-2 {
+  vertical-align: middle;
+  width: 55%;
+  float: left;
+  margin-top: -4%;
+  padding-right: 7%;
+  padding-left: 2%;
+}
+
+.rightpanel-2 a {
+  color: #000;
+  font-size: 15px;
+  vertical-align: text-top;
+}
+
+.word2 {
+  width: 100%;
+  float: left;
+  color: #9d9d9d;
+  font-size: 10px;
+  vertical-align: middle;
+}
+
+.word2 img {
+  vertical-align: middle;
+}
+
+.word2 a {
+  font-size: 12px;
+  color: #7e7e7e;
+  vertical-align: middle;
+}
+
+.footer {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 30px 0px 28px;
+  width: 100%;
+  margin: 0px;
+  height: 140px;
+  background: #fff;
+}
+
+.footerup {
+  background: #fff;
+  height: 50px;
+  padding: 10px 0px 5px;
+  margin: 0px 0px 10px;
+  text-align: center;
+}
+
+.footerup a {
+  padding: 25px 19px 15px;
+  margin: -10px 10px 20px;
+  color: #4a4a4a;
+  font-size: 14px;
+  font-family:微軟正黑體;
+  font-weight: bold;
+}
+
+.footermiddle {
+  background: #fff;
+  height: 50px;
+  padding: 25px 0px 50px;
+  margin: 0px;
+  text-align: center;
+
+}
+
+.footermiddle a {
+  margin: 0px 30px;
+  padding: 0px 8px;
+  color: #8C8C8C;
+  font-size: 12px;
+  font-family:微軟正黑體;
+}
+
+.footerdown {
+  background: #f7f7f7;
+  height: 60px;
+  padding: 20px;
+  margin: 0px;
+}
+
+.footerdown a {
+  color: #999999;
+  margin: 0px 50px 0px 20px;
+  font-size: 12px;
+  font-family:微軟正黑體;
+}
+
+.footerdown img {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 2%;
+  float: right;
+}
+
